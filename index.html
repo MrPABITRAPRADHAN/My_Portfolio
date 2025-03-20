@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio - Pabitra Pradhan</title>
+
+  <!-- bootstrap css cdn link  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- bootstrap icon cdn link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+
+  <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- jquery cdn link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar starts -->
+  <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">Pabitra Pradhan</a>
+      <button class="nav-menu d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-menu-button-fill"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Projects</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#testimonial">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li> -->
+        </ul>
+      </div>
+       
+      <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"><a href="#contact">Contact</a></button>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+
+  <!-- home section starts  -->
+  <section class="home pt-5 pb-5" id="home"  style="background-color: rgb(134, 134, 163);">
+    <div class="row justify-content-evenly align-middle" >
+      <!-- here data-aos is used for adding aos animation  -->
+      <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+        <h2 style="color: #3f396d">
+          Hello! I'm <br /><span class="c-orange">Pabitra Pradhan</span>
+        </h2>
+        <p class="text-muted">
+          A passionate Full-stack web developer and a 2024 graduate from Odisha.I specialise in building user-friendly and responsive web application.
+          I have hands on experience in HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, and Core Java.
+          I am always eager to learn and contribute to the community.
+        </p>
+       
+        <a href="" class="link ms-4 d-none">See My Work</a>
+      </div>
+      <div class="profile col-10 col-md-4 d-none d-md-block">
+        <img src="images/pabitra3.png" class="img-fluid " alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here -->
+
+  <!-- expertise section starts -->
+  <section class="expertise mt-5" id="service">
+    <div class="heading text-center">
+      <small>
+        <h1>My Education</h1>
+      </small>
+      <h3>
+        <!-- Provide Wide Range of <br />
+          Digital Services -->
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-2">
+
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/roland.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>B.Tech</h4>
+            <h5>Roland Institute of Technology | 2020-24</h5>
+            <p class="text-muted">
+
+              Secured <b>8.17</b> cgpa by accomplish Bachelor Degree in Roland institute of Technology under BPUT.
+
+            </p>
+            <!-- <a href="" class="link">Read More</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/khemundi.png" class="w-25 img-fluid img" alt="" />
+          </div>
+          <div class="content mt-3">
+            <h4>12TH </h4>
+            <h5>Khemundi H.S College | 2019-20 </h5>
+            <p class="text-muted">
+              Secured <b>61%</b> by passing secondary education in Khemundi H S college under Berhempur University.
+            </p>
+            <!-- <a href="" class="link">Read More</a> -->
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Debugging</h4>
+              <p class="text-muted">
+                Dolor repellendus temporibus autem quibusdam officiis debitis
+                rerum neces aibus minima veniam.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div> -->
+    </div>
+  </section>
+  <!-- expertise section ends here -->
+
+  <!-- skill section starts -->
+  <section class="skill mt-5 py-5" id="about">
+    <div class="row justify-content-evenly">
+      <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress html-css">
+                <span class="progress-value html-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">HTML & CSS</span>
+            </div>
+          </div>
+
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress javascript">
+                <span class="progress-value javascript-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress php">
+                <span class="progress-value php-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">Mongodb</span>
+            </div>
+          </div>
+
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <div class="circular-progress reactjs">
+                <span class="progress-value reactjs-progress">0%</span>
+              </div>
+              <br>
+              <span class="text">ReactJS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-4">
+          <div class="col-10 col-md-6">
+            <div class="progress-card ms-3 ms-md-0">
+              <div class="circular-progress nodejs">
+                <span class="progress-value node-progress">0%</span>
+              </div>
+              <br />
+              <span class="text">Node.js</span>
+            </div>
+          </div>
+
+          <div class="col-10 col-md-6 mt-4 mt-md-0">
+            <div class="progress-card ms-3  ms-md-0">
+              <div class="circular-progress expressjs">
+                <span class="progress-value express-progress">0%</span>
+              </div>
+              <br>
+              <span class="text">Express.js</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+        <div class="heading mt-5 mt-md-3">
+          <small>My Skills</small>
+          <br><br>
+          <h4>HTML, CSS, and JavaScript:</h4>
+          <p class="text-muted">
+            HTML structures the web content.
+            <br>
+            CSS styles the visual elements (e.g., layout, colors, fonts).
+            <br>
+            JavaScript makes websites interactive by handling client-side scripting.
+          </p>
+          <br>
+          <h4>Responsive Design:</h4>
+          <p class="text-muted">
+            Media Queries: Designing websites that look good on all devices (mobile, tablet, desktop) by using CSS media
+            queries.
+            <br>
+            Flexbox and CSS Grid: Modern layout systems for creating responsive layouts.
+          </p>
+          <br>
+          <h4> Frameworks and Libraries:</h4>
+          <p class="text-muted">
+            JavaScript frameworks: Knowledge of frameworks such as React.js is essential for building dynamic web
+            applications.
+            CSS frameworks: Experience with Bootstrap, Tailwind CSS, or similar for faster and responsive design
+            development.
+          </p>
+          <br>
+          <h4>APIs and Asynchronous Programming:</h4>
+          <p class="text-muted">
+            Ability to interact with RESTful APIs and handle asynchronous operations using Promises, and async/await.
+          </p>
+          <br>
+          <h4>Core Java (oops)</h4>
+          <p class="text-muted">
+            Classes and objects. <br>
+            Encapsulation <br>
+            Inheritence <br>
+            Polymorphism <br>
+            Abstraction
+          </p>
+          <br>
+          <h4>Logical Programming</h4>
+          <p class="text-muted">
+            Number Problems. <br>
+            Decision Making. <br>
+            Loops. <br>
+            Condition. <br>
+            Data Structure.
+          </p>
+
+
+        </div>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <!-- here download attribute is used for adding download functionality to button  -->
+          <a href="pabitra-padhan-new.pdf" download="SampleCV" style="text-decoration: none;color: #fff;">Download
+            CV</a>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- skill section end here -->
+
+  <!-- portfolio section starts here -->
+  <section class="portfolio" id="portfolio">
+    <div class="heading text-center pt-5">
+      <small>Creative Work</small>
+      <h3>Check My Projects</h3>
+    </div>
+
+    <div id="myBtnContainer" class="text-center mt-4">
+      <!-- here we will create custom attribute using data- for filtering -->
+      <button class="filter-item" data-filter="all">All</button>
+      <button class="filter-item" data-filter="game">Game</button>
+      <button class="filter-item" data-filter="webapp">Web App</button>
+      <button class="filter-item" data-filter="website">Website</button>
+      <button class="filter-item" data-filter="brand">Brand</button>
+    </div>
+    <div class="portfolio-body">
+      <div class="row justify-content-evenly px-4">
+
+        <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/tesla.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Tesla</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="https://tesla-model-mr-pradhan.netlify.app/" class="read-more-btn link">Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/my-recipe.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">My Recipe App</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="https://my-recipe-app-mrpradhan.netlify.app/" class="read-more-btn link">Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/website-assignment.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">React-App</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">React js</span><br />
+              <a href="https://machinecodingroundpabitra.netlify.app/" class="read-more-btn link">Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-evenly mt-4 px-4">
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/qrCode.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">QrCode Generator</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">App</span><br />
+              <a href="https://qr-code-generator-mr-pradhan.netlify.app/" class="read-more-btn link">Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/ToDolist.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">To-Do-List </h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">WebApp</span><br />
+              <a href="https://to-do-list-mr-pradhan.netlify.app/" class="read-more-btn link">Live</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/game-tic-tac-toe.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Tic-Tac-Toe Game</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Game</span><br />
+              <a href="https://tic-tac-toe-a3bdfc.netlify.app/" class="link">Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/weather-app.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Article App</h4>
+              <span class="badge bg-secondary badge-pill">React js</span>
+              <span class="badge bg-secondary badge-pill">Node js</span>
+              <span class="badge bg-secondary badge-pill">Express js</span>
+              <span class="badge bg-secondary badge-pill mb-2">Web App</span><br />
+              <a href="https://weather-app-mr-pradhan.netlify.app/" class="link">Live</a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="card">
+            <img src="images/website-thancos.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h4 class="card-title">Thancos natural clone</h4>
+              <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+              <span class="badge bg-secondary badge-pill">JavaScript</span>
+              <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+              <a href="https://thancos-natural-78df82.netlify.app/" class="link">Live</a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+    </div>
+  </section>
+  <!-- portfolio section ends here -->
+
+
+  <!-- contact section starts -->
+  <section class="contact py-5" id="contact">
+    <div class="heading text-center">
+      <small>Get in Touch</small>
+      <h3> Feel Free to Contact</h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>Bengaluru, 560076, India</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-telephone-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>+91 8480660040</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-send-fill"></i>
+          </div>
+          <div class="col-11">
+            <p>gpabitrapadhan@gmail.com</p>
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-1">
+            <i class="bi bi-linkedin"></i>
+          </div>
+          <div class="col-11">
+            <p>https://www.linkedin.com/in/pabitra-padhan-0a67b525b</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="281cc71a-1864-46ca-b397-90a92911f6ef">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="emailInput" name="email" placeholder="E-mail" required />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="mobileInput" name="mobile" placeholder="Mobile No." required />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="messageInput" name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Submit
+          </button>
+        </form>
+      </div>
+      
+
+    </div>
+  </section>
+  <!-- contact section ends here -->
+
+  <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+  <button type="button" class="btn btn-floating btn-lg rounded-pill" id="btn-back-to-top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- footer section starts  -->
+  <footer class="text-center text-muted py-4">
+    <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+    <div class="link-group mt-5" data-aos="fade-up">
+      <a href="#home">Home</a>
+      <div class="vr"></div>
+      <a href="#about">About</a>
+      <div class="vr"></div>
+      <a href="#service">Skills</a>
+      <div class="vr"></div>
+      <a href="#portfolio">Portfolio</a>
+      <!-- <div class="vr"></div>
+      <a href="#blog">Blog</a> -->
+      <div class="vr"></div>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-links mt-5" data-aos="fade-up">
+      <!-- <button href="" class="rounded-pill dribble">
+        <i class="bi bi-dribbble"></i>
+      </button>
+      <button href="" class="rounded-pill whatsapp">
+        <i class="bi bi-whatsapp"></i>
+      </button>
+      <button href="" class="rounded-pill behance">
+        <i class="bi bi-behance"></i>
+      </button> -->
+    </div>
+    <hr class="text-muted my-4" />
+
+    <!-- <p>Copyright 2022 Portfolio | All Rights Reserved.</p> -->
+  </footer>
+  <!-- footer section ends here -->
+
+  <!-- bootstrap javascript cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS library javascript link  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    // initializing AOS library
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+    });
+  </script>
+  <!-- custom js file linking -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
